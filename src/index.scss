@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    
+    height: 100vh;
+    background-image: url('./assets/2.png');
+    .overlay {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+
+    img {
+        width: 640px;
+        
+    }
+    
+}
+
+.gameTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 32px;
+
+}
+
+
